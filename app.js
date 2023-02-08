@@ -27,10 +27,10 @@ mongoose.connect(process.env.DATABASE, {
 
 
 //middlewares
-app.use(morgan('dev'))
-app.use(bodyParser.json())
-app.use(cookieParser())
-app.use(expressValidator())
+app.use(morgan('dev'));
+app.use(bodyParser.json());
+app.use(cookieParser());
+app.use(expressValidator());
 
 
 
