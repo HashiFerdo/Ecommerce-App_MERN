@@ -1,4 +1,5 @@
 const User = require("../models/user");
+const {errorHandler} = 
 
 
 exports.userById = (req,res,next,id) =>{
